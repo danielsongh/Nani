@@ -3,15 +3,6 @@ import Vision
 import AVFoundation
 
 
-enum CameraError: Swift.Error {
-    case captureSessionAlreadyRunning
-    case captureSessionIsMissing
-    case inputsAreInvalid
-    case invalidOperation
-    case noCamerasAvailable
-    case unknown
-}
-
 
 class ViewController: UIViewController {
    
